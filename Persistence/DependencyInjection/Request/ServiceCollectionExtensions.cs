@@ -1,6 +1,6 @@
 ﻿using public_requests.Application.Data.Request.Command;
 using public_requests.Application.Data.Request.Query;
-using public_requests.Persistence.Data.Request.Command;
+using public_requests.Persistence.Data.Command;
 using public_requests.Persistence.Data.Request.Query;
 
 namespace public_requests.Persistence.DependencyInjection.Request

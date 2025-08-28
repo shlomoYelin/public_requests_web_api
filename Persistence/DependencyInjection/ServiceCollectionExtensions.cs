@@ -1,4 +1,5 @@
-﻿using public_requests.Persistence.DependencyInjection.Request;
+﻿using public_requests.Persistence.DependencyInjection.MonthlyReportResult;
+using public_requests.Persistence.DependencyInjection.Request;
 
 namespace public_requests.Persistence.DependencyInjection
 {
@@ -7,6 +8,7 @@ namespace public_requests.Persistence.DependencyInjection
         public static IServiceCollection AddPersistence(this IServiceCollection services)
         {
             services.AddRequestData();
+            services.AddMonthlyReportData();
             return services;
         }
 

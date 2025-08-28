@@ -10,6 +10,8 @@ public class AppDbContext : DbContext
 
     public DbSet<Department> Departments { get; set; }
     public DbSet<Request> Requests { get; set; }
+    public DbSet<MonthlyReportResult> MonthlyReportResults { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

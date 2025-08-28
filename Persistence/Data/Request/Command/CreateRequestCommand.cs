@@ -1,6 +1,6 @@
 ﻿using public_requests.Application.Data.Request.Command;
 
-namespace public_requests.Persistence.Data.Request.Command
+namespace public_requests.Persistence.Data.Command
 {
     public class CreateRequestCommand : ICreateRequestCommand
     {
